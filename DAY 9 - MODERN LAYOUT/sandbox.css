@@ -1,0 +1,108 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+
+.layout1 article {
+    width:58%;
+    float: left;
+}
+
+.layout1 aside{
+    width:40%;
+    float: right; 
+}
+
+.layout1 footer {
+    clear: both;
+}
+
+/* MODERN LAYOUT 2 */
+.layout2 header .logo {
+    width: 20%;
+    float: left;
+    margin: 0;
+}
+
+.layout2 header nav {
+    width: 78%;
+    float: right;
+    margin: 0;
+}
+
+.layout2 header::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.layout2 article{
+    width: 50%;
+    margin: 2%;
+    float: left;
+}
+
+.layout2 aside.sidenav{
+    width: 23%;
+    float: left;
+}
+
+.layout2 aside.sidebar {
+    width:23%;
+    float: right;
+}
+
+.layout2 footer{
+    clear:both;
+}
+
+/* MODERN LAYOUT #3*/
+
+.layout3 header .logo{
+    width: 20%;
+    float: right;
+    margin: 0;
+}
+
+.layout3 header nav {
+    width: 78%;
+    float: left;
+    margin:0;
+}
+
+.layout3 header::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.layout3 article 
+{width: 32%;
+    float: left;
+    margin: 0 2% 0 0;
+}
+
+/* Have to clear the margin of the last article to allow it to fit within layout */
+
+.layout3 article:last-child{
+    margin: 0;
+}
+
+.layout3 .articles::after{
+    display: table;
+    content: "";
+    clear: both;
+} 
+
+/* SIMPLE MEDIA QUERIES FOR RESPONSIVE LAYOUTS */
+
+@media screen and (max-width: 768px) {
+    .layout1 article, .layout1 aside, 
+    .layout2 header .logo, .layout2 header nav, .layout2 article, .layout2 aside.sidenav, .layout2 aside.sidebar,
+    .layout3 article, .layout3 aside, .layout3 header .logo, .layout3 header nav {
+        float: none;
+        width: 100%;
+        margin: 0 0 2%;
+    }
+}
