@@ -1,5 +1,5 @@
 
-(https://github.com/psychoCS/30-DAYS-OF-CSS/30days.png)
+<img src="30days.png" width=50%>(https://github.com/psychoCS/30-DAYS-OF-CSS/30days.png)
 
 While the Corona is happening, I'm using the time to boost my coding skills using this 30 days css3 challenge that you can find at 
 
