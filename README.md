@@ -1,3 +1,8 @@
+# CSS3 in 30 Days @bradhussey Course
+
+This course had you do one CSS3 topic per day.
+
+The course can be found here on [https://codecollege.ca](https://codecollege.ca/courses).  
 
 <img src="30days.png" width=100%>
 
@@ -47,8 +52,4 @@ Day 11 - IE Hacks
 Day 12 - CSS Variables  
 Day 28 - Optimizing CSS  
 
-# CSS3 in 30 Days @bradhussey Course
 
-This course had you do one CSS3 topic per day.
-
-The course can be found here on [https://codecollege.ca](https://codecollege.ca/courses).
