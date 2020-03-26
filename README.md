@@ -1,5 +1,5 @@
 
-<img src="30days.png" width=50%>
+<img src="30days.png" width=100%>
 
 While the Corona is happening, I'm using the time to boost my coding skills using this 30 days css3 challenge that you can find at  
 
